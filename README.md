@@ -1,6 +1,6 @@
 # MEKF Arduino Sensor Logger
 
-This project implements an embedded data logger for the MPU6050 IMU using an Arduino-compatible board. It reads accelerometer and gyroscope data, packages it, and streams it over serial. Additionally, the system provides periodic audible feedback via a buzzer. This project was intended to be used in conjunctoin with the Multiplicative Extended Kalman Filter repo found at: https://github.com/AhmedKhan04/MEKF_REPO  
+This project implements an embedded data logger for the MPU6050 IMU using an Arduino-compatible board. It reads accelerometer and gyroscope data, packages it, and streams it over serial. Additionally, the system provides periodic audible feedback via a buzzer. This project was intended to be used in conjunction with the Multiplicative Extended Kalman Filter repo found at: https://github.com/AhmedKhan04/MEKF_REPO  
 
 ---
 
