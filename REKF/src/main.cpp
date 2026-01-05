@@ -86,7 +86,10 @@ void loop() {
   Serial.write(0xAA);
   Serial.write((uint8_t*)&packet, sizeof(Packet));
 
-  
+  if (millis() - lastBeepTime > 60000) {
+    lastBeepTime = millis();
+    beep(1000, 50);
+  }
 
   delayMicroseconds(5000); // 200 Hz
 
