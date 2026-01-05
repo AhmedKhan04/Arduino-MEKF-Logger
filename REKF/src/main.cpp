@@ -6,7 +6,7 @@
 
 
  
-struct Packet {
+struct __attribute__((packed)) Packet {
   uint32_t t;
   float ax, ay, az;
   float gx, gy, gz;
