@@ -83,6 +83,7 @@ void loop() {
   packet.gy = g.gyro.y;
   packet.gz = g.gyro.z;
 
+  Serial.write(0xAA);
   Serial.write((uint8_t*)&packet, sizeof(Packet));
 
   
